@@ -6,7 +6,7 @@
         teelonis
       </h1>
       <h2 class="subtitle">
-        Personal Portfolio
+        Portfolio
       </h2>
       <div class="links">
         <a
