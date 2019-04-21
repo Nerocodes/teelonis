@@ -1,10 +1,6 @@
 # teelonis
 
-<<<<<<< HEAD
-> Personal Portfolio
-=======
 > Portfolio
->>>>>>> 6a07b187e15ad6342898e90482c98975a842b13c
 
 ## Build Setup
 
