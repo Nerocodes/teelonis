@@ -1,0 +1,81 @@
+/* Fonts */
+@font-face{
+  font-family: Nunito-Black;
+  src: url('fonts/Nunito-Black.ttf');
+}
+
+@font-face{
+  font-family: Nunito-Bold;
+  src: url('fonts/Nunito-Bold.ttf');
+}
+
+@font-face{
+  font-family: Nunito-ExtraBold;
+  src: url('fonts/Nunito-ExtraBold.ttf');
+}
+
+@font-face{
+  font-family: Nunito-ExtraLight;
+  src: url('fonts/Nunito-ExtraLight.ttf');
+}
+
+@font-face{
+  font-family: Nunito-Light;
+  src: url('fonts/Nunito-Light.ttf');
+}
+
+@font-face{
+  font-family: Nunito-Medium;
+  src: url('fonts/Nunito-Medium.ttf');
+}
+
+@font-face{
+  font-family: Nunito-Regular;
+  src: url('fonts/Nunito-Regular.ttf');
+}
+
+@font-face{
+  font-family: Nunito-SemiBold;
+  src: url('fonts/Nunito-SemiBold.ttf');
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Nunito-ExtraBold;
+  padding: 2rem 4rem;
+}
+
+.main-nav .logo img {
+  width: 130px;
+}
+
+.main-nav ul {
+  padding-left: 0rem;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main-nav ul li {
+  margin-left: 3rem;
+}
+
+.main-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0rem;
+  display: flex;
+  padding: 1rem 4rem;
+  justify-content: flex-end;
+  font-family: Nunito-Regular;
+}
+
+.main-footer .copyright {
+  margin-right: 9rem;
+}
+
+.main-footer .rights {
+  color: #f0ac94;
+}
