@@ -46,6 +46,7 @@
   padding: 2rem 4rem;
   position: absolute;
   width: 100%;
+  z-index: 1;
 }
 
 .main-nav .logo img {
@@ -61,12 +62,15 @@
 }
 
 .main-nav ul li {
-  margin-left: 3rem;
+  margin-right: 3rem;
+  letter-spacing: 1.5px;
+  font-size: 14px;
 }
 
 /* Homepage */
 .homepage {
   display: flex;
+  overflow: hidden;
 }
 
 .homepage .left {
@@ -77,15 +81,79 @@
   background-size: cover;
   background-color: #F6F4F5;
   height: 100vh;
-  width: 55%;
+  width: 53%;
+  position: relative;
 }
 
 .homepage .right {
-  width: 45%;
+  width: 47%;
   background-color: #f0ac94;
   height: 100vh;
+  position: relative;
 }
 
+.homepage .left .img {
+  position: absolute;
+  right: -10.5rem;
+  padding-top: 5rem;
+  z-index: 2;
+}
+
+.homepage .left .img img {
+  width: 125%;
+}
+
+.homepage .right .img {
+  position: absolute;
+  left: -6rem;
+  padding-top: 5rem;
+}
+
+.homepage .right .img img {
+  width: 67%;
+  background-blend-mode: overlay;
+}
+
+.homepage .right .icons {
+  position: absolute;
+  right: 0rem;
+  padding: 2.7rem 2rem;
+}
+
+.homepage .right .icons .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  font-size: 1.3rem;
+}
+
+.homepage .right .icons .social i {
+  margin-bottom: 3rem;
+}
+
+.homepage .right .message {
+  background-color: #f8ddd4;
+  width: 400px;
+  height: 90px;
+  position: absolute;
+  bottom: 2.7rem;
+  right: 0rem;
+  display: flex;
+}
+
+.homepage .right .message img{
+  width: 30%;
+  margin-right: 23%;
+}
+
+.homepage .right .message p{
+  text-transform: uppercase;
+  font-family: Nunito-ExtraBold;
+  font-size: 12px;
+  color: #00000073;
+  display: flex;
+  align-items: center;
+}
 
 /* Footer */
 .main-footer {
@@ -97,10 +165,13 @@
   justify-content: flex-end;
   font-family: Nunito-Regular;
   background-color: #ffffff;
+  z-index: 5;
+  font-size: 12px;
+  color: #00000073;
 }
 
 .main-footer .copyright {
-  margin-right: 9rem;
+  margin-right: 20.5rem;
 }
 
 .main-footer .rights {
