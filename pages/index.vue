@@ -1,6 +1,11 @@
 <template>
-  <section class="container">
-    <h1>Hello World</h1>
+  <section class="homepage">
+    <div class="left">
+      
+    </div>
+    <div class="right">
+
+    </div>
   </section>
 </template>
 

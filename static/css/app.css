@@ -44,6 +44,8 @@
   justify-content: space-between;
   font-family: Nunito-ExtraBold;
   padding: 2rem 4rem;
+  position: absolute;
+  width: 100%;
 }
 
 .main-nav .logo img {
@@ -62,6 +64,30 @@
   margin-left: 3rem;
 }
 
+/* Homepage */
+.homepage {
+  display: flex;
+}
+
+.homepage .left {
+  background-image: url('../img/bg.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F6F4F5;
+  height: 100vh;
+  width: 55%;
+}
+
+.homepage .right {
+  width: 45%;
+  background-color: #f0ac94;
+  height: 100vh;
+}
+
+
+/* Footer */
 .main-footer {
   width: 100%;
   position: fixed;
@@ -70,6 +96,7 @@
   padding: 1rem 4rem;
   justify-content: flex-end;
   font-family: Nunito-Regular;
+  background-color: #ffffff;
 }
 
 .main-footer .copyright {
@@ -77,5 +104,5 @@
 }
 
 .main-footer .rights {
-  color: #f0ac94;
+  color: #F6F4F5;
 }
