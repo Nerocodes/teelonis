@@ -27,7 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
-    { rel: 'stylesheet', href: 'css/app.css' }
+    '~/static/css/app.css'
   ],
 
   /*
