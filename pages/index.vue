@@ -4,6 +4,17 @@
       <div class="img">
         <img src="img/teeloni.png" alt="Teeloni">
       </div>
+      <div class="text">
+        <hr>
+        <p class="bold">
+          Experience
+          <span>Thoughtful Gift Giving</span>
+        </p>
+        <p class="regular">
+          Lorem ipsum dolor sit amet, consectetu 
+          Lorem ipsum dolor sit amet hawe te
+        </p>
+      </div>
     </div>
     <div class="right">
       <div class="icons">

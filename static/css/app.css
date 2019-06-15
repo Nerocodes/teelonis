@@ -83,6 +83,9 @@
   height: 100vh;
   width: 53%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .homepage .right {
@@ -95,12 +98,38 @@
 .homepage .left .img {
   position: absolute;
   right: -10.5rem;
-  padding-top: 5rem;
+  top: 3.5rem;
   z-index: 2;
 }
 
 .homepage .left .img img {
   width: 125%;
+}
+
+.homepage .left hr {
+  width: 11%;
+  background-color: #f0ac94;
+  border: 2.5px solid #f0ac94;
+}
+
+.homepage .left .text {
+  width: 50%;
+}
+
+.homepage .left .text .bold{
+  font-size: 4.5rem;
+  color: #f0ac94;
+  font-family: Nunito-Regular;
+}
+
+.homepage .left .text .bold span {
+  font-family: Nunito-ExtraBold;
+}
+
+.homepage .left .text .regular {
+  font-size: 1.5rem;
+  font-family: Nunito-Regular;
+  margin-top: 1rem;
 }
 
 .homepage .right .img {
@@ -133,8 +162,8 @@
 
 .homepage .right .message {
   background-color: #f8ddd4;
-  width: 400px;
-  height: 90px;
+  width: 350px;
+  height: 70px;
   position: absolute;
   bottom: 2.7rem;
   right: 0rem;
@@ -143,7 +172,7 @@
 
 .homepage .right .message img{
   width: 30%;
-  margin-right: 23%;
+  margin-right: 20%;
 }
 
 .homepage .right .message p{
