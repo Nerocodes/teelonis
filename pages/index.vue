@@ -1,68 +1,46 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        teelonis
-      </h1>
-      <h2 class="subtitle">
-        Portfolio
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+  <section class="homepage">
+    <div class="left">
+      <div class="img">
+        <img src="img/teeloni.png" alt="Teeloni">
+      </div>
+      <div class="text">
+        <hr>
+        <p class="bold">
+          Experience
+          <span>Thoughtful Gift Giving</span>
+        </p>
+        <p class="regular">
+          Lorem ipsum dolor sit amet, consectetu 
+          Lorem ipsum dolor sit amet hawe te
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="icons">
+        <div class="search">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="social">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/rack.png" alt="Rack">
+      </div>
+      <div class="message">
+        <img src="img/msg.jpg" alt="message icon">
+        <p>Talk to us</p>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  }
+  layout: 'app',
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
