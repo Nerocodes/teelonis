@@ -42,5 +42,9 @@
 
 export default {
   layout: 'app',
+  mounted() {
+    const nav = document.querySelector('.main-nav');
+    nav.classList.remove('text-primary');
+  }
 }
 </script>
