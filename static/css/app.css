@@ -227,6 +227,7 @@
   width: 40%;
   padding-left: 4rem;
   font-family: Nunito-Regular;
+  line-height: 1.2;
 }
 
 .about .right .text .title {
@@ -237,7 +238,7 @@
 }
 
 .about .right .text .body {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 1rem;
 }
 
@@ -297,6 +298,133 @@
 }
 
 .about .right .message p{
+  text-transform: uppercase;
+  font-family: Nunito-ExtraBold;
+  font-size: 12px;
+  color: #00000073;
+  display: flex;
+  align-items: center;
+}
+
+/* Shared Stories page */
+.stories {
+  display: flex;
+}
+
+.stories .left {
+  background-image: url('../img/bg.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F6F4F5;
+  height: 100vh;
+  width: 25%;
+}
+
+.stories .right {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.stories .right .flex {
+  display: flex;
+}
+
+.stories .right .image {
+  padding-left: 6rem;
+}
+
+.stories .right .image img {
+  width: 60%;
+}
+
+.stories .right .text {
+  width: 40%;
+  padding-left: 4rem;
+  font-family: Nunito-Regular;
+  line-height: 1.2;
+}
+
+.stories .right .text .title {
+  font-size: 2rem;
+  width: 70%;
+  font-family: Nunito-ExtraBold;
+  margin-bottom: 1rem;
+}
+
+.stories .right .text .bio {
+  line-height: 1.5;
+}
+
+.stories .right .text .featured {
+  margin: 0.5rem 0rem 1rem 0rem;
+  font-size: 12px;
+  font-family: Nunito-SemiBold
+}
+
+.stories .right .text .body {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.stories .right .text .read-more {
+  text-transform: uppercase;
+  background-color: #f0ac94;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 40%;
+  font-family: Nunito-Bold;
+  font-size: 14px;
+}
+
+.stories .right .gift img {
+  position: absolute;
+  right: 4.5rem;
+  top: 8rem;
+  width: 380px;
+}
+
+.stories .right .icons {
+  position: absolute;
+  right: 0rem;
+  padding: 2.4rem 2rem;
+  background-color: #f0ac94;
+  height: 100%;
+}
+
+.stories .right .icons .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  font-size: 1.3rem;
+}
+
+.stories .right .icons .social i {
+  margin-bottom: 3rem;
+}
+
+.stories .right .message {
+  background-color: #f8ddd4;
+  width: 350px;
+  height: 70px;
+  position: absolute;
+  bottom: 2.7rem;
+  right: 0rem;
+  display: flex;
+}
+
+.stories .right .message img{
+  width: 30%;
+  margin-right: 20%;
+}
+
+.stories .right .message p{
   text-transform: uppercase;
   font-family: Nunito-ExtraBold;
   font-size: 12px;
