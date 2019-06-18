@@ -49,6 +49,10 @@
 }
 
 /* Main menu */
+.mobile-nav {
+  display: none;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -618,6 +622,67 @@
 
   .main-nav {
     display: none;
+  }
+
+  /* Mobile Nav */
+
+  .mobile-nav {
+    display: flex;
+    font-family: Nunito-ExtraBold;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+  }
+
+  .mobile-nav .hamburger {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #f0ac94; 
+  }
+
+  .mobile-nav .logo {
+    margin-top: 1rem;
+  }
+  
+  .mobile-nav .logo img {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .mobile-nav ul {
+    padding-left: 0rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0ac94;
+  }
+
+  ul.toggle-nav {
+    display: none;
+  }
+  
+  .mobile-nav ul li {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 0.5rem;
+  }
+  
+  .mobile-nav ul li:hover {
+    border-bottom: 2px solid #333333;
   }
 
   /* Homepage mobile */
