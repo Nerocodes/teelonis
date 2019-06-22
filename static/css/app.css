@@ -896,4 +896,139 @@
   .about .right .message p{
     display: none;
   }
+
+  /* Stories */
+  .stories {
+    display: block;
+    position: relative;
+  }
+  
+  .stories .left {
+    background-image: url('../img/bg.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F6F4F5;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .stories .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+    background-color: #ffffff;
+    width: 85vw;
+    min-height: 80vh;
+  }
+
+  .stories .right .flex {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -1rem;
+  }
+  
+  .stories .right .text {
+    width: 100%;
+    padding: 0rem 3rem 0rem 1.5rem;
+    font-family: Nunito-Regular;
+    line-height: 1.2;
+  }
+  
+  .stories .right .text .title {
+    font-size: 1.1rem;
+    width: 70%;
+    font-family: Nunito-ExtraBold;
+    margin-bottom: 0.2rem;
+  }
+
+  .stories .right .text .bio {
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .stories .right .text .featured {
+    font-size: 10px;
+    margin: 0.5rem 0rem;
+  }
+  
+  .stories .right .text .body {
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  .stories .right .text .mb-3 {
+    display: none;
+  }
+  
+  .stories .right .text .read-more {
+    text-transform: uppercase;
+    background-color: #f0ac94;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -1.6rem;
+    height: 40px;
+    width: 40%;
+    font-family: Nunito-Bold;
+    font-size: 10px;
+  }
+
+  .stories .right .image {
+    padding: 0rem 3rem 1rem 1.5rem;
+  }
+  
+  .stories .right .image img {
+    width: 100%;
+  }
+  
+  .stories .right .icons {
+    position: fixed;
+    right: 0rem;
+    padding: 1rem 0.5rem;
+    font-size: 12px;
+    height: 100vh;
+    top: 0rem;
+  }
+  
+  .stories .right .icons .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    font-size: 14px;
+  }
+  
+  .stories .right .icons .social i {
+    margin-bottom: 1.5rem;
+  }
+  
+  .stories .right .message {
+    background-color: #f8ddd4;
+    width: 60px;
+    height: 48px;
+    position: absolute;
+    bottom: -1rem;
+    right: 0.5rem;
+    display: flex;
+  }
+  
+  .stories .right .message img{
+    width: 100%;
+    margin-right: 0rem;
+  }
+  
+  .stories .right .message p{
+    display: none;
+  }
+}
+
+.hide-mobile {
+  display: none;
 }

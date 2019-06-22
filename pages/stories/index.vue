@@ -21,9 +21,9 @@
           <p class="body">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Perferendis, dignissimos illum soluta velit ratione quaerat
-              nisi nostrum corrupti laudantium harum eveniet quasi.
+            <span class="hide-mobile"> nisi nostrum corrupti laudantium harum eveniet quasi.
             Officiis fuga maiores saepe nulla? Quasi, delectus cum.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
           </p>
           <p class="body mb-3">
             Perferendis, dignissimos illum soluta velit ratione quaerat
