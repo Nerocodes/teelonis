@@ -780,4 +780,120 @@
   .homepage .right {
     width: 35%;
   }
+
+  /* About */
+  .about {
+    display: block;
+    position: relative;
+  }
+  
+  .about .left {
+    background-image: url('../img/bg.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F6F4F5;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .about .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+    background-color: #ffffff;
+    width: 85vw;
+    min-height: 80vh;
+  }
+  
+  .about .right .text {
+    width: 100%;
+    padding: 0rem 1.5rem;
+    font-family: Nunito-Regular;
+    line-height: 1.2;
+  }
+  
+  .about .right .text .title {
+    font-size: 1.2rem;
+    width: 70%;
+    font-family: Nunito-ExtraBold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about .right .text .body {
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+    display: none;
+  }
+
+  .about .right .text .mb-3 {
+    display: block;
+    margin-bottom: 1rem !important;
+  }
+  
+  .about .right .text .read-more {
+    text-transform: uppercase;
+    background-color: #f0ac94;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -0.6rem;
+    height: 40px;
+    width: 40%;
+    font-family: Nunito-Bold;
+    font-size: 10px;
+  }
+  
+  .about .right .gift img {
+    position: relative;
+    right: 0rem;
+    top: 0rem;
+    width: 250px;
+  }
+  
+  .about .right .icons {
+    position: fixed;
+    right: 0rem;
+    padding: 1rem 0.5rem;
+    font-size: 12px;
+    height: 100vh;
+    top: 0rem;
+  }
+  
+  .about .right .icons .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    font-size: 14px;
+  }
+  
+  .about .right .icons .social i {
+    margin-bottom: 1.5rem;
+  }
+  
+  .about .right .message {
+    background-color: #f8ddd4;
+    width: 60px;
+    height: 48px;
+    position: absolute;
+    bottom: -1rem;
+    right: 0.5rem;
+    display: flex;
+  }
+  
+  .about .right .message img{
+    width: 100%;
+    margin-right: 0rem;
+  }
+  
+  .about .right .message p{
+    display: none;
+  }
 }
