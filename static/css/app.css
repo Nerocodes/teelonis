@@ -536,13 +536,6 @@
   transform: rotate(-40deg);
 }
 
-.experience .right .gift img {
-  position: absolute;
-  right: 4.5rem;
-  top: 8rem;
-  width: 380px;
-}
-
 .experience .right .icons {
   position: absolute;
   right: 0rem;
@@ -1025,6 +1018,153 @@
   }
   
   .stories .right .message p{
+    display: none;
+  }
+
+  /* Experience page */
+  .experience {
+    display: block;
+    position: relative;
+  }
+  
+  .experience .left {
+    background-image: url('../img/bg.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F6F4F5;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .experience .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+    background-color: #ffffff;
+    width: 85vw;
+    min-height: 80vh;
+  }
+
+  .experience .right .flex {
+    flex-direction: column;
+    padding: 0rem 3rem 0rem 2rem;
+    width: 100%;
+    position: relative;
+    top: -2rem;
+  }
+  
+  .experience .right .text {
+    width: 100%;
+    padding: 0rem;
+    font-family: Nunito-Regular;
+    line-height: 1.2;
+    border-right: transparent;
+  }
+  
+  .experience .right .text .title {
+    font-size: 1.1rem;
+    width: 70%;
+    font-family: Nunito-ExtraBold;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience .right .text .sub-title {
+    font-size: 12px;
+    margin-bottom: 0.2rem;
+  }
+
+  .experience .right .write-up {
+    font-size: 10px;
+  }
+  
+  .experience .right .text form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience .right .text form input {
+    padding: 0.2rem;
+    margin-bottom: 0.7rem;
+    font-size: 10px;
+  }
+  
+  .experience .right .text form textarea {
+    min-height: 15vh;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+    font-size: 10px;
+  }
+  
+  .experience .right .text form input[type="submit"] {
+    width: 50%;
+    color: #ffffff;
+    background-color: #f0ac94;
+    border: transparent;
+    padding: 0.5rem;
+  }
+  
+  .experience .right .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem;
+  }
+  
+  .experience .right .contact .info {
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 10px;
+  }
+  
+  .experience .right .contact .info .icon {
+    margin-right: 1rem;
+  }
+  
+  .experience .right .contact .info .icon .fa-phone-volume {
+    transform: rotate(-40deg);
+  }
+  
+  .experience .right .icons {
+    position: fixed;
+    right: 0rem;
+    padding: 1rem 0.5rem;
+    font-size: 12px;
+    height: 100vh;
+    top: 0rem;
+  }
+  
+  .experience .right .icons .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    font-size: 14px;
+  }
+  
+  .experience .right .icons .social i {
+    margin-bottom: 1.5rem;
+  }
+  
+  .experience .right .message {
+    background-color: #f8ddd4;
+    width: 60px;
+    height: 48px;
+    position: absolute;
+    bottom: -1rem;
+    right: 0.5rem;
+    display: flex;
+  }
+  
+  .experience .right .message img{
+    width: 100%;
+    margin-right: 0rem;
+  }
+  
+  .experience .right .message p{
     display: none;
   }
 }
