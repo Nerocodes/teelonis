@@ -7,13 +7,18 @@
       <div class="text">
         <hr>
         <p class="bold">
-          Experience
-          <span>Thoughtful Gift Giving</span>
+          Experience <br>
+          <span class="sub-header">The Pride and Joy of Giving The Perfect Gift</span>
         </p>
         <p class="regular">
-          Lorem ipsum dolor sit amet, consectetu 
-          Lorem ipsum dolor sit amet hawe te
+          Enjoy a stress free, time-saving and
+           bespoke approach to giving gifts that
+            WOW the recipient and gives you the feeling
+             of joy and satisfaction.
         </p>
+        <nuxt-link to="/experience" class="homepage-btn">
+          Show Me How
+        </nuxt-link>
       </div>
     </div>
     <div class="right">

@@ -4,47 +4,39 @@
       
     </div>
     <div class="right">
-      <div class="flex">
-        <div class="text">
-          <p class="title">
-            Experience Us
-          </p>
-          <p class="sub-title">
-            Fill in your preference
-          </p>
-          <p class="write-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit, sed.
-          </p>
-          <form>
-            <input type="email" id="email" name="email" placeholder="EMAIL">
-            <textarea name="preference" id="preference" placeholder="EXPERIENCE PREFERENCE"></textarea>
-            <input type="submit" value="ENTER" disabled>
-          </form>
-        </div>
-        <div class="contact">
-          <div class="info">
-            <div class="icon">
-              <i class="fas fa-home"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quasi.</p>
-          </div>
-          <div class="info">
-            <div class="icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <p>hello@teelonis.com</p>
-          </div>
-          <div class="info">
-            <div class="icon">
-              <i class="fas fa-phone-volume"></i>
-            </div>
-            <p>
-              +234 (0) 234 567 8910
-              <br>
-              +234 (0) 234 567 8910
-            </p>
-          </div>
-        </div>
+      <div class="text">
+        <p class="title">
+        Experience Us
+        </p>
+        <p>Welcome to the beautiful world of Thoughtful Gifting.</p>
+        <p>We are on a mission to help you build, strengthen
+         and restore your relationships through the art of thoughtful expressions.</p>
+        <p>We do this by helping you give unique and quality gifts that are 
+        beautifully packaged and show your recipient that you care enough to give them a WOW experience!</p>
+        <p>For 10 years- we have helped to build a community of thoughtful 
+        gift givers- and we invite you to be one!</p>
+        <p>Become a gifting hero/superstar- not only because you give the perfect
+         gift, but also because you create joyful and happy memories for your recipient.</p>
+      </div>
+      <div class="links">
+          <nuxt-link to="/how-it-works" class="link" tag="div">
+              <div class="icon">
+                  <i class="fas fa-cogs"></i>
+              </div>
+              <p>How It Works</p>
+          </nuxt-link>
+          <nuxt-link to="/gift-dairy" class="link" tag="div">
+              <div class="icon">
+                  <i class="fas fa-gifts"></i>
+              </div>
+              <p>Manage My Gift Diary</p>
+          </nuxt-link>
+          <nuxt-link to="/say-hello" class="link" tag="div">
+              <div class="icon">
+                  <i class="fas fa-phone-square"></i>
+              </div>
+              <p>Say Hello</p>
+          </nuxt-link>
       </div>
       <div class="icons">
         <div class="search">
