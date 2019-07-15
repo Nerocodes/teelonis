@@ -9,11 +9,8 @@
           <p class="title">
             Say Hello
           </p>
-          <p class="sub-title">
-            Fill in your preference
-          </p>
-          <p class="write-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit, sed.
+          <p class="write-up sub-title">
+            Your beautiful story of thoughtful gifting starts with saying HELLO.
           </p>
           <form>
             <input type="email" id="email" name="email" placeholder="EMAIL">
@@ -22,12 +19,6 @@
           </form>
         </div>
         <div class="contact">
-          <div class="info">
-            <div class="icon">
-              <i class="fas fa-home"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quasi.</p>
-          </div>
           <div class="info">
             <div class="icon">
               <i class="fas fa-envelope"></i>
@@ -39,9 +30,9 @@
               <i class="fas fa-phone-volume"></i>
             </div>
             <p>
-              +234 (0) 234 567 8910
+              Nigeria - +234 (0) 809 670 8888
               <br>
-              +234 (0) 234 567 8910
+              UK - +447 549 00 5150
             </p>
           </div>
         </div>

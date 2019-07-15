@@ -600,6 +600,320 @@
   align-items: center;
 }
 
+/* How it works */
+.how-it-works {
+  display: flex;
+}
+
+.how-it-works .left {
+  background-image: url('../img/bg.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F6F4F5;
+  height: 100vh;
+  width: 25%;
+}
+
+.how-it-works .right {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.how-it-works .right .flex {
+  display: flex;
+}
+
+.how-it-works .right .text {
+  width: 70%;
+  padding: 6rem 4rem;
+  font-family: Nunito-Regular;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.how-it-works .right .text .title {
+  font-size: 1.5rem;
+  width: 100%;
+  font-family: Nunito-SemiBold;
+  margin-bottom: 1rem;
+  color: #f0ac94;
+}
+
+.how-it-works .right .text .sub-title {
+  font-size: 1.2rem;
+  font-family: Nunito-SemiBold;
+}
+
+.how-it-works .right .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.how-it-works .right .links .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -20%;
+}
+
+.how-it-works .right .links .link:hover .icon{
+  background-color: #f0ac94;
+  color: #F6F4F5;
+} 
+
+.how-it-works .right .links .link .icon {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  color: #f0ac94;
+}
+
+.how-it-works details {
+  background-color: #f0ac94;
+  color: white;
+}
+
+.how-it-works details summary {
+  outline-color: #f0ac94;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  text-transform: uppercase;
+  font-family: Nunito-Bold;
+}
+
+.how-it-works .cta-btn {
+  border: solid 2px #f0ac94;
+  color: #f0ac94;
+  background-color: #f0ac9400;
+  text-decoration: none;
+  padding: 1.5rem 0rem;
+  text-transform: uppercase;
+  display: block;
+  width: 40%;
+  text-align: center;
+  margin: 1rem auto;
+  font-family: Nunito-ExtraBold;
+}
+
+.how-it-works .cta-btn:hover {
+  background-color: #f0ac94;
+  border: solid 2px #f0ac94;
+  color: #ffffff;
+}
+
+.how-it-works .right .icons {
+  position: absolute;
+  right: 0rem;
+  padding: 2.4rem 2rem;
+  background-color: #f0ac94;
+  height: 100%;
+}
+
+.how-it-works .right .icons .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  font-size: 1.3rem;
+}
+
+.how-it-works .right .icons .social i {
+  margin-bottom: 3rem;
+}
+
+.how-it-works .right .message {
+  background-color: #f8ddd4;
+  width: 350px;
+  height: 70px;
+  position: absolute;
+  bottom: 2.7rem;
+  right: 0rem;
+  display: flex;
+}
+
+.how-it-works .right .message img{
+  width: 30%;
+  margin-right: 20%;
+}
+
+.how-it-works .right .message p{
+  text-transform: uppercase;
+  font-family: Nunito-ExtraBold;
+  font-size: 12px;
+  color: #00000073;
+  display: flex;
+  align-items: center;
+}
+
+/* Manage my gift diary page */
+.gift-diary {
+  display: flex;
+}
+
+.gift-diary .left {
+  background-image: url('../img/bg.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F6F4F5;
+  height: 100vh;
+  width: 25%;
+}
+
+.gift-diary .right {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.gift-diary .right .flex {
+  display: flex;
+}
+
+.gift-diary .right .text {
+  align-self: center;
+  width: 50%;
+  padding: 0rem 4rem;
+  font-family: Nunito-Regular;
+  line-height: 1.2;
+  border-right: 1px solid #cccccc;
+}
+
+.gift-diary .right .text .title {
+  font-size: 1.5rem;
+  width: 70%;
+  font-family: Nunito-SemiBold;
+  margin-bottom: 1.5rem;
+  color: #f0ac94;
+}
+
+.gift-diary .right .text .sub-title {
+  font-size: 1.2rem;
+  font-family: Nunito-SemiBold;
+}
+
+.gift-diary .right .text .write-up {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.gift-diary .right .form {
+  width: 50%;
+  padding: 1rem 0rem 1rem 1.5rem;
+}
+
+.gift-diary .right .form form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.gift-diary .right .form form input, .gift-diary .right .form form select {
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+  width: 100%;
+}
+
+.gift-diary .right .form form textarea {
+  min-height: 25vh;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.gift-diary .right .form form legend {
+  color: #f0ac94;
+  font-family: Nunito-SemiBold;
+}
+
+.gift-diary .right .form form fieldset {
+  border-color: #f0ac94;
+}
+
+.gift-diary .right .form form input[type="submit"] {
+  width: 40%;
+  color: #ffffff;
+  background-color: #f0ac94;
+  border: transparent;
+  padding: 0.7rem;
+  margin-top: 1rem;
+}
+
+.gift-diary .right .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 8rem 0rem 4rem;
+}
+
+.gift-diary .right .contact .info {
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 12px;
+}
+
+.gift-diary .right .contact .info .icon {
+  margin-right: 1rem;
+}
+
+.gift-diary .right .contact .info .icon .fa-phone-volume {
+  transform: rotate(-40deg);
+}
+
+.gift-diary .right .icons {
+  position: absolute;
+  right: 0rem;
+  padding: 2.4rem 2rem;
+  background-color: #f0ac94;
+  height: 100%;
+}
+
+.gift-diary .right .icons .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  font-size: 1.3rem;
+}
+
+.gift-diary .right .icons .social i {
+  margin-bottom: 3rem;
+}
+
+.gift-diary .right .message {
+  background-color: #f8ddd4;
+  width: 350px;
+  height: 70px;
+  position: absolute;
+  bottom: 2.7rem;
+  right: 0rem;
+  display: flex;
+}
+
+.gift-diary .right .message img{
+  width: 30%;
+  margin-right: 20%;
+}
+
+.gift-diary .right .message p{
+  text-transform: uppercase;
+  font-family: Nunito-ExtraBold;
+  font-size: 12px;
+  color: #00000073;
+  display: flex;
+  align-items: center;
+}
+
 /* Say Hello page */
 .say-hello {
   display: flex;
