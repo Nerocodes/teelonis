@@ -25,7 +25,7 @@
               </div>
               <p>How It Works</p>
           </nuxt-link>
-          <nuxt-link to="/gift-dairy" class="link" tag="div">
+          <nuxt-link to="/gift-diary" class="link" tag="div">
               <div class="icon">
                   <i class="fas fa-gifts"></i>
               </div>

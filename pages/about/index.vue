@@ -52,7 +52,7 @@
           <p class="body">To sprinkle happiness and joy in the world like confetti.</p>
           <a href="/experience" class="read-more">Get Started</a>
         </div>
-        <a href="#" class="read-more">Read More</a>
+        <a href="#" class="read-more" id="read-more-btn" @click="readMore">Read More</a>
       </div>
       <div class="gift">
         <img src="img/ourstory.png" alt="gifts">
@@ -81,6 +81,14 @@ export default {
   mounted() {
     const nav = document.querySelector('.main-nav');
     nav.classList.add('text-primary');
+  },
+  methods: {
+    readMore() {
+      const readMoreBtn = document.querySelector('#read-more-btn');
+      const more = document.querySelector('.more');
+      readMoreBtn.classList.add('more');
+      more.classList.remove('more');
+    }
   }
 }
 </script>
